@@ -4,6 +4,7 @@
  *
  * Return: Always 0.
  * print-alphabet - Print the alphabet in lowercase
+ * No return:value
  */
 void print_alphabet(void)
 {
