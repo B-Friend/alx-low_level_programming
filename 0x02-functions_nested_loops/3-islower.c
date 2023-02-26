@@ -3,6 +3,7 @@
  * main - check the code.
  *
  * Return: Always 0.
+ * Function that print lower case
  */
 int _islower(int c)
 {
@@ -14,6 +15,6 @@ int _islower(int c)
 	{
 		return (0);
 	}
-       	_putchar('\n');
-    return (0);
+_putchar('\n');
+return (0);
 }
