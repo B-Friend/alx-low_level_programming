@@ -8,7 +8,7 @@
 */
 char *_str(char *s, char c)
 {
-int a = 0;
+int i = 0;
 
 for (; s[i] >= '\0'; i++)
 {
