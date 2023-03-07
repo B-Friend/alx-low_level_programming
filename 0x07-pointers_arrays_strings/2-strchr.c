@@ -1,26 +1,19 @@
 #include "main.h"
 
 /**
-*_strchr - locate character in string
+*_str - Entry point
 *@s: source string
 *@c: character to find
-*Return: the string from characterfound
+*Return: Always return 0 (success)
 */
 char *_str(char *s, char c)
 {
-int a, b;
+int a = 0;
 
-a = 0;
-while (s[a])
+for (; s[i] >= '\0'; i++)
 {
-a++;
+if (s[i] == c)
+return (&s[i]);
 }
-for (b = 0; b <= a; b++)
-{
-if (c == s[b])
-{
-s += b;
-return (s);
-}
-return ('\0');
+return (0);
 }
