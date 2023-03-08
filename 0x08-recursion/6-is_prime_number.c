@@ -14,11 +14,11 @@ int is_prime_number(int n)
 return (check_prime(n, 1));
 }
 /**
-*check_prime -> check if the number is prime
-*@n: number
-@i: iteration
+*check_prime -> Check if the number is prime
+*@n: The number to be checked
+*@i: Iteration
 *
-*Return: 1 for prime number 0 for composite
+*Return: 1 for  prime 0 for composite
 */
 int check_prime(int n, int i)
 {
