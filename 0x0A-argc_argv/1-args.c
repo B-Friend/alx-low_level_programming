@@ -6,9 +6,9 @@
 *@argv: argv an array of a command listed
 *Return: Always 0 (success)
 */
-int main(int argc _attribute_((unused)), char *argv[])
+int main(int argc, char *argv[] _attribute_((unused)))
 {
-printf("%s\n", *argv);
+printf("%s\n", *argc - 1);
 return (0);
 }
 ~         
